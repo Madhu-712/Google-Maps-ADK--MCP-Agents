@@ -72,6 +72,7 @@ Follow these instructions to set up and run the `MapsAgent` locally or deploy it
     The `MCPToolset` will manage running this, but `npm` needs to be able to find it. This step is usually handled dynamically by `npx` when the tool is first invoked.
 
     pip install mcp
+    
     pip install googlemaps
 
 ### Configuration
@@ -116,7 +117,7 @@ To interact with the `MapsAgent`, you will typically run `agent.py` and provide 
     *   "What is the elevation of Mount Everest?"
     *   "Tell me the time zone of Tokyo, Japan."
     *   "What's the address of the Eiffel Tower?"
-    *   "Travelling from Bangalore to Pune .Give directions info, weather info, airquality info,elevation info,driving navigation map details ,important hotspots and cafes.
+    *   "Travelling from Bangalore to Pune . Give directions info, weather info, airquality info,elevation and geocoordinates info,driving navigation map details ,important hotspots and cafes.
     *   I am currently in Satara and want to navigate shirdi. Give me directions and plan.
 
 ## Contributing
@@ -135,4 +136,5 @@ This project is licensed under the [Your Chosen License, e.g., MIT License] - se
 ## Contact
 
 For questions or issues, please open an issue in the GitHub repository or contact [Your Name/Email/Link].
+LInks: https://google.github.io/adk-docs/tools/mcp-tools/
 
