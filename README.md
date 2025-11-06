@@ -95,7 +95,7 @@ Follow these instructions to set up and run the `MapsAgent` locally or deploy it
     If you haven't already, authenticate your `gcloud` CLI and set your project:
     ```bash
     gcloud auth login
-    gcloud config set project mcp-flight-agent
+    gcloud config set project Google-Maps-ADK-Agents
     gcloud auth application-default login # For local dev with client libraries
     ```
 
